@@ -24,6 +24,11 @@ class HomePageView extends GetView<HomePageController> {
       child: ElevatedButton(
         onPressed: () {
           controller.changeName();
+          Get.snackbar(
+            "Success",
+            "Congratulations",
+            backgroundColor: Colors.greenAccent,
+          );
         },
         child: Text("Change"),
       ),
