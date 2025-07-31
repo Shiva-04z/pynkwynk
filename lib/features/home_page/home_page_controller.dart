@@ -8,7 +8,7 @@ class HomePageController extends GetxController {
   void onInit() {
     // TODO: implement onInit
     super.onInit();
-    myName.value = "Raj";
+    myName.value = "Manas";
   }
 
   void changeName() {
